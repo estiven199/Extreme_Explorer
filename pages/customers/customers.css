@@ -1,0 +1,66 @@
+/* customers.css */
+.admin-container {
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+
+    margin: 20px;
+}
+
+.admin-container h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ddd;
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #007bff;
+    color: white;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.btn {
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+
+}
+
+.update-btn {
+    background-color: #007bff;
+    margin-right: 5px;
+}
+
+.delete-btn {
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: #d9534f;
+    border: 0;
+    color: #ffffff;
+
+
+}
